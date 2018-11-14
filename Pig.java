@@ -1,17 +1,15 @@
 class Pig implements Animal {     
      private String myType;     
      private String mySound;      
-     public Pig(String type, String sound, String name)     {         
+     public Pig(String type, String sound)     {         
          myType = type;         
          mySound = sound; 
-         myName = name;
      } 
      
      public Pig()     
      {         
          myType = "unknown";         
          mySound = "unknown"; 
-         myName = "unknown";
      }
      
      public String getSound()
@@ -23,9 +21,4 @@ class Pig implements Animal {
      {
        return myType;
      } 
-     
-     public String getName()
-     {
-       return myName;
-     }
 }

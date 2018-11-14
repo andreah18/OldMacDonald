@@ -4,14 +4,12 @@ class Cow implements Animal {
      public Cow(String type, String name, String sound)     {         
          myType = type;         
          mySound = sound;
-         myName = name;
      }     
      
      public Cow()     
      {         
          myType = "unknown";         
          mySound = "unknown";
-         myName = "unknown";
      }      
      
      public String getSound()
@@ -23,9 +21,4 @@ class Cow implements Animal {
      {
        return myType;
      } 
-     
-     public String getName()
-     {
-       return myName;
-     }
 }
